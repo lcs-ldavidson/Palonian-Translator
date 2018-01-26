@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    //MARK: Outlets
+    
+    //MARK: Properties (Variables)
+    
+    //MARK: Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,6 +25,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    //MARK: Actions
+    @IBAction func buttonTranslate(_ sender: Any) {
+    }
+    
+    //MARK: Custom functions
 
 
 }
