@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     
     //MARK: Outlets
+    @IBOutlet weak var untranslatedTextField: UITextView!
+    @IBOutlet weak var translatedTextField: UILabel!
     
     //MARK: Properties (Variables)
     
@@ -28,6 +30,25 @@ class ViewController: UIViewController {
     
     //MARK: Actions
     @IBAction func buttonTranslate(_ sender: Any) {
+    
+        //printing the untranslated text
+        print(untranslatedTextField.text)
+        
+        //unwrap the textfields content so that there is no nil
+        
+        guard let inputGiven = untranslatedTextField.text else {
+            //if we could not unwrap the optional, then quit this function.
+            return
+        }
+        
+        var textToTranslate = untranslatedTextField.text
+     
+        struct Translator {
+            
+        }
+        
+        
+        
     }
     
     //MARK: Custom functions
