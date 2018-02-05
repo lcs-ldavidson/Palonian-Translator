@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var translatedTextField: UILabel!
     
     //MARK: Properties (Variables)
+    let translator = Translator()
     
     //MARK: Overrides
     override func viewDidLoad() {
@@ -41,11 +42,9 @@ class ViewController: UIViewController {
             return
         }
         
-        var textToTranslate = untranslatedTextField.text
+        translatedTextField.text = translator.translate(this: inputGiven)
      
-        struct Translator {
-            
-        }
+        
         
         
         
