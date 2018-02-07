@@ -214,9 +214,9 @@ class TranslatorEnglish {
         
     }
     
-    func translate(this text : String) -> String {
+    func translateToEnglish(this text : String) -> String {
         
-        var translatedText = ""
+        var translatedEnglishText = ""
         
         var translateFirstLetter = true
         
@@ -227,161 +227,161 @@ class TranslatorEnglish {
             if singleCharacter == " " {
                 translateFirstLetter = true
                 translatedLetter = " "
-            } else if singleCharacter == "a" {
-                translatedLetter = "e"
-                translateFirstLetter = false
             } else if singleCharacter == "e" {
-                translatedLetter = "i"
+                translatedLetter = "a"
                 translateFirstLetter = false
             } else if singleCharacter == "i" {
-                translatedLetter = "o"
+                translatedLetter = "e"
                 translateFirstLetter = false
             } else if singleCharacter == "o" {
-                translatedLetter = "u"
+                translatedLetter = "i"
                 translateFirstLetter = false
             } else if singleCharacter == "u" {
-                translatedLetter = "a"
+                translatedLetter = "o"
                 translateFirstLetter = false
-            } else if singleCharacter == "b" && translateFirstLetter {
-                translatedLetter = "c"
+            } else if singleCharacter == "a" {
+                translatedLetter = "u"
                 translateFirstLetter = false
             } else if singleCharacter == "c" && translateFirstLetter {
-                translatedLetter = "d"
+                translatedLetter = "b"
                 translateFirstLetter = false
             } else if singleCharacter == "d" && translateFirstLetter {
-                translatedLetter = "f"
+                translatedLetter = "c"
                 translateFirstLetter = false
             } else if singleCharacter == "f" && translateFirstLetter {
-                translatedLetter = "g"
+                translatedLetter = "d"
                 translateFirstLetter = false
             } else if singleCharacter == "g" && translateFirstLetter {
-                translatedLetter = "h"
+                translatedLetter = "f"
                 translateFirstLetter = false
             } else if singleCharacter == "h" && translateFirstLetter {
-                translatedLetter = "j"
+                translatedLetter = "g"
                 translateFirstLetter = false
             } else if singleCharacter == "j" && translateFirstLetter {
-                translatedLetter = "k"
+                translatedLetter = "h"
                 translateFirstLetter = false
             } else if singleCharacter == "k" && translateFirstLetter {
-                translatedLetter = "l"
+                translatedLetter = "j"
                 translateFirstLetter = false
             } else if singleCharacter == "l" && translateFirstLetter {
-                translatedLetter = "m"
+                translatedLetter = "k"
                 translateFirstLetter = false
             } else if singleCharacter == "m" && translateFirstLetter {
-                translatedLetter = "n"
+                translatedLetter = "l"
                 translateFirstLetter = false
             } else if singleCharacter == "n" && translateFirstLetter {
-                translatedLetter = "p"
+                translatedLetter = "m"
                 translateFirstLetter = false
             } else if singleCharacter == "p" && translateFirstLetter {
-                translatedLetter = "q"
+                translatedLetter = "n"
                 translateFirstLetter = false
             } else if singleCharacter == "q" && translateFirstLetter {
-                translatedLetter = "r"
+                translatedLetter = "p"
                 translateFirstLetter = false
             } else if singleCharacter == "r" && translateFirstLetter {
-                translatedLetter = "s"
+                translatedLetter = "q"
                 translateFirstLetter = false
             } else if singleCharacter == "s" && translateFirstLetter {
-                translatedLetter = "t"
+                translatedLetter = "r"
                 translateFirstLetter = false
             } else if singleCharacter == "t" && translateFirstLetter {
-                translatedLetter = "v"
+                translatedLetter = "s"
                 translateFirstLetter = false
             } else if singleCharacter == "v" && translateFirstLetter {
-                translatedLetter = "w"
+                translatedLetter = "t"
                 translateFirstLetter = false
             } else if singleCharacter == "w" && translateFirstLetter {
-                translatedLetter = "x"
+                translatedLetter = "v"
                 translateFirstLetter = false
             } else if singleCharacter == "x" && translateFirstLetter {
-                translatedLetter = "y"
+                translatedLetter = "w"
                 translateFirstLetter = false
             } else if singleCharacter == "y" && translateFirstLetter {
-                translatedLetter = "z"
+                translatedLetter = "x"
                 translateFirstLetter = false
             } else if singleCharacter == "z" && translateFirstLetter {
-                translatedLetter = "a"
+                translatedLetter = "y"
                 translateFirstLetter = false
-            } else if singleCharacter == "A" {
-                translatedLetter = "E"
+            } else if singleCharacter == "b" && translateFirstLetter {
+                translatedLetter = "z"
                 translateFirstLetter = false
             } else if singleCharacter == "E" {
-                translatedLetter = "I"
+                translatedLetter = "A"
                 translateFirstLetter = false
             } else if singleCharacter == "I" {
-                translatedLetter = "O"
+                translatedLetter = "E"
                 translateFirstLetter = false
             } else if singleCharacter == "O" {
-                translatedLetter = "U"
+                translatedLetter = "I"
                 translateFirstLetter = false
             } else if singleCharacter == "U" {
-                translatedLetter = "A"
+                translatedLetter = "O"
                 translateFirstLetter = false
-            } else if singleCharacter == "B" && translateFirstLetter {
-                translatedLetter = "C"
+            } else if singleCharacter == "A" {
+                translatedLetter = "U"
                 translateFirstLetter = false
             } else if singleCharacter == "C" && translateFirstLetter {
-                translatedLetter = "D"
+                translatedLetter = "B"
                 translateFirstLetter = false
             } else if singleCharacter == "D" && translateFirstLetter {
-                translatedLetter = "F"
+                translatedLetter = "C"
                 translateFirstLetter = false
             } else if singleCharacter == "F" && translateFirstLetter {
-                translatedLetter = "G"
+                translatedLetter = "D"
                 translateFirstLetter = false
             } else if singleCharacter == "G" && translateFirstLetter {
-                translatedLetter = "H"
+                translatedLetter = "F"
                 translateFirstLetter = false
             } else if singleCharacter == "H" && translateFirstLetter {
-                translatedLetter = "J"
+                translatedLetter = "G"
                 translateFirstLetter = false
             } else if singleCharacter == "J" && translateFirstLetter {
-                translatedLetter = "K"
+                translatedLetter = "H"
                 translateFirstLetter = false
             } else if singleCharacter == "K" && translateFirstLetter {
-                translatedLetter = "L"
+                translatedLetter = "J"
                 translateFirstLetter = false
             } else if singleCharacter == "L" && translateFirstLetter {
-                translatedLetter = "M"
+                translatedLetter = "K"
                 translateFirstLetter = false
             } else if singleCharacter == "M" && translateFirstLetter {
-                translatedLetter = "N"
+                translatedLetter = "L"
                 translateFirstLetter = false
             } else if singleCharacter == "N" && translateFirstLetter {
-                translatedLetter = "P"
+                translatedLetter = "M"
                 translateFirstLetter = false
             } else if singleCharacter == "P" && translateFirstLetter {
-                translatedLetter = "Q"
+                translatedLetter = "N"
                 translateFirstLetter = false
             } else if singleCharacter == "Q" && translateFirstLetter {
-                translatedLetter = "R"
+                translatedLetter = "P"
                 translateFirstLetter = false
             } else if singleCharacter == "R" && translateFirstLetter {
-                translatedLetter = "S"
+                translatedLetter = "Q"
                 translateFirstLetter = false
             } else if singleCharacter == "S" && translateFirstLetter {
-                translatedLetter = "T"
+                translatedLetter = "R"
                 translateFirstLetter = false
             } else if singleCharacter == "T" && translateFirstLetter {
-                translatedLetter = "V"
+                translatedLetter = "S"
                 translateFirstLetter = false
             } else if singleCharacter == "V" && translateFirstLetter {
-                translatedLetter = "W"
+                translatedLetter = "T"
                 translateFirstLetter = false
             } else if singleCharacter == "W" && translateFirstLetter {
-                translatedLetter = "X"
+                translatedLetter = "V"
                 translateFirstLetter = false
             } else if singleCharacter == "X" && translateFirstLetter {
-                translatedLetter = "Y"
+                translatedLetter = "W"
                 translateFirstLetter = false
             } else if singleCharacter == "Y" && translateFirstLetter {
-                translatedLetter = "Z"
+                translatedLetter = "X"
                 translateFirstLetter = false
             } else if singleCharacter == "Z" && translateFirstLetter {
-                translatedLetter = "A"
+                translatedLetter = "Y"
+                translateFirstLetter = false
+            } else if singleCharacter == "B" && translateFirstLetter {
+                translatedLetter = "Z"
                 translateFirstLetter = false
             } else {
                 translatedLetter = "\(singleCharacter)"
@@ -389,13 +389,13 @@ class TranslatorEnglish {
             }
             
             
-            translatedText += translatedLetter
+            translatedEnglishText += translatedLetter
             
             
             //this bracket ends the loop for each individual character
         }
         
-        return translatedText
+        return translatedEnglishText
         
     }
     

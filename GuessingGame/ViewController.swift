@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     
     //MARK: Properties (Variables)
     let translator = Translator()
+    let translatorToEnglish = TranslatorEnglish()
     
     //MARK: Overrides
     override func viewDidLoad() {
@@ -44,18 +45,17 @@ class ViewController: UIViewController {
         
         translatedTextField.text = translator.translate(this: inputGiven)
      
-        
-        
-        
-        
     }
   
     @IBAction func buttonTranslateToEnglish(_ sender: Any) {
         
-        guard let inputGiven =
-            untranslatedTextField.text else {
+        guard let inputGiven = untranslatedTextField.text else {
                 return
         }
+        
+        translatedTextField.text = translatorToEnglish.translateToEnglish(this: inputGiven)
+        
+        
         
     }
     
