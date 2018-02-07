@@ -49,6 +49,16 @@ class ViewController: UIViewController {
         
         
     }
+  
+    @IBAction func buttonTranslateToEnglish(_ sender: Any) {
+        
+        guard let inputGiven =
+            untranslatedTextField.text else {
+                return
+        }
+        
+    }
+    
     
     //MARK: Custom functions
 
