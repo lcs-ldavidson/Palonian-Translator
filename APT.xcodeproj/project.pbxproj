@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		9E1604982023A90F00596857 /* Translator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translator.swift; sourceTree = "<group>"; };
-		9E58C05820124E6B006E7C20 /* GuessingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E58C05820124E6B006E7C20 /* APT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E58C05B20124E6B006E7C20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E58C05D20124E6B006E7C20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E58C06020124E6B006E7C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		9E58C05920124E6B006E7C20 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9E58C05820124E6B006E7C20 /* GuessingGame.app */,
+				9E58C05820124E6B006E7C20 /* APT.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9E58C05720124E6B006E7C20 /* GuessingGame */ = {
+		9E58C05720124E6B006E7C20 /* APT */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E58C06A20124E6B006E7C20 /* Build configuration list for PBXNativeTarget "GuessingGame" */;
+			buildConfigurationList = 9E58C06A20124E6B006E7C20 /* Build configuration list for PBXNativeTarget "APT" */;
 			buildPhases = (
 				9E58C05420124E6B006E7C20 /* Sources */,
 				9E58C05520124E6B006E7C20 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = GuessingGame;
+			name = APT;
 			productName = GuessingGame;
-			productReference = 9E58C05820124E6B006E7C20 /* GuessingGame.app */;
+			productReference = 9E58C05820124E6B006E7C20 /* APT.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9E58C05320124E6B006E7C20 /* Build configuration list for PBXProject "GuessingGame" */;
+			buildConfigurationList = 9E58C05320124E6B006E7C20 /* Build configuration list for PBXProject "APT" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9E58C05720124E6B006E7C20 /* GuessingGame */,
+				9E58C05720124E6B006E7C20 /* APT */,
 			);
 		};
 /* End PBXProject section */
@@ -215,9 +215,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Ancient Palonian Translator";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Ancient Palonian Translator";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -266,8 +268,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Ancient Palonian Translator";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "Ancient Palonian Translator";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -307,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9E58C05320124E6B006E7C20 /* Build configuration list for PBXProject "GuessingGame" */ = {
+		9E58C05320124E6B006E7C20 /* Build configuration list for PBXProject "APT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E58C06820124E6B006E7C20 /* Debug */,
@@ -316,7 +320,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E58C06A20124E6B006E7C20 /* Build configuration list for PBXNativeTarget "GuessingGame" */ = {
+		9E58C06A20124E6B006E7C20 /* Build configuration list for PBXNativeTarget "APT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E58C06B20124E6B006E7C20 /* Debug */,
