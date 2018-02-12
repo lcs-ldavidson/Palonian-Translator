@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     
     //MARK: Outlets
     @IBOutlet weak var untranslatedTextField: UITextView!
-    @IBOutlet weak var translatedTextField: UILabel!
+    
+    @IBOutlet weak var translatedTextField: UITextView!
     
     //MARK: Properties (Variables)
     let translator = Translator()
