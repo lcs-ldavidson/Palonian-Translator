@@ -59,7 +59,6 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTranslate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="64U-wE-1ZG"/>
                                     <action selector="buttonTranslateToEnglish:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yxo-ZW-gRs"/>
                                 </connections>
                             </button>
@@ -80,7 +79,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="buttonTranslateToEnglish" destination="aw2-Vd-mv3" id="gzx-px-qeQ"/>
                         <outlet property="translatedTextField" destination="SYq-0P-HVx" id="SQK-t4-ZV5"/>
                         <outlet property="untranslatedTextField" destination="ep8-3V-T77" id="MFH-Tc-egj"/>
                     </connections>
