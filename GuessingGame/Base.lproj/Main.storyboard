@@ -73,11 +73,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="D20" translatesAutoresizingMaskIntoConstraints="NO" id="wH4-Vx-PSx">
+                                <rect key="frame" x="595" y="820" width="185" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.018056607527338602" green="0.48170336787564771" blue="0.003541116636485056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="D20Image" destination="wH4-Vx-PSx" id="bqD-Gr-5Ga"/>
                         <outlet property="translatedTextField" destination="EO6-bg-baB" id="w6W-jC-Rif"/>
                         <outlet property="untranslatedTextField" destination="ep8-3V-T77" id="MFH-Tc-egj"/>
                     </connections>
@@ -87,4 +92,7 @@
             <point key="canvasLocation" x="65.885797950219612" y="98.4375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="D20" width="200" height="200"/>
+    </resources>
 </document>

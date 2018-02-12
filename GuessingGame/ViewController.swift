@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var translatedTextField: UITextView!
     
+    @IBOutlet weak var D20Image: UIImageView!
+    
     //MARK: Properties (Variables)
     let translator = Translator()
     let translatorToEnglish = TranslatorEnglish()
