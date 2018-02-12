@@ -103,7 +103,7 @@ class Translator {
                 translatedLetter = "z"
                 translateFirstLetter = false
             } else if singleCharacter == "z" && translateFirstLetter {
-                translatedLetter = "a"
+                translatedLetter = "b"
                 translateFirstLetter = false
             } else if singleCharacter == "A" {
                 translatedLetter = "E"
@@ -181,7 +181,7 @@ class Translator {
                 translatedLetter = "Z"
                 translateFirstLetter = false
             } else if singleCharacter == "Z" && translateFirstLetter {
-                translatedLetter = "A"
+                translatedLetter = "B"
                 translateFirstLetter = false
             } else {
                 translatedLetter = "\(singleCharacter)"
