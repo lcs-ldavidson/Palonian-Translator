@@ -78,7 +78,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CornerSwirl" translatesAutoresizingMaskIntoConstraints="NO" id="k6w-eA-4We">
-                                <rect key="frame" x="-52" y="574" width="293" height="251"/>
+                                <rect key="frame" x="-52" y="577" width="293" height="251"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReverseCornerSwirl" translatesAutoresizingMaskIntoConstraints="NO" id="kHx-AJ-EoR">
+                                <rect key="frame" x="1128" y="573" width="291" height="255"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -99,5 +103,6 @@
     <resources>
         <image name="CornerSwirl" width="3500" height="3500"/>
         <image name="D20" width="200" height="200"/>
+        <image name="ReverseCornerSwirl" width="3500" height="3500"/>
     </resources>
 </document>
